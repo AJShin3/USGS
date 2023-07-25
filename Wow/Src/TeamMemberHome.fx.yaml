@@ -1,0 +1,5 @@
+TeamMemberHome As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    TeamMemberHeading_1 As TeamMemberHeading:
+

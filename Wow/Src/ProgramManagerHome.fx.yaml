@@ -17,8 +17,8 @@ ProgramManagerHome As screen:
             ="Force Generate PDF Reports
             "
         Width: =393
-        X: =910
-        Y: =348
+        X: =850
+        Y: =284
         ZIndex: =2
 
     Button5 As button:

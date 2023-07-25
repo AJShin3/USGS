@@ -113,7 +113,7 @@
     "Id": "a78c7776-307e-4ae3-8327-eb6d5efb3fc6",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "USGS Weekly Report",
     "OriginatingVersion": "1.333",
     "ParserErrorCount": 0,

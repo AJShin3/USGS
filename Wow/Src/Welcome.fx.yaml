@@ -24,7 +24,7 @@ Welcome As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         OnSelect: |
-            =Navigate(ProgramManagerHome)
+            =Navigate(TeamMemberHome)
         Size: =15
         Text: ="Team Member"
         X: =603

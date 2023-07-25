@@ -132,8 +132,8 @@
   },
   "ScreenOrder": [
     "Welcome",
-    "TaskLeadHome",
     "ProgramManagerHome",
+    "TaskLeadHome",
     "TeamMemberHome",
     "Styling"
   ]

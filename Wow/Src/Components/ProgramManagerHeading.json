@@ -613,7 +613,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638259073963316143",
+    "LastModifiedTimestamp": "638259053927800615",
     "Name": "ProgramManagerHeading",
     "Rules": [
       {
@@ -688,7 +688,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638259073963316143",
+  "LastModifiedTimestamp": "638259053927800615",
   "Name": "b98cdbded0d946fea2ad712f896c1054",
   "OverridableProperties": {},
   "TemplateOriginalName": "ebc1e42d07474e39882b4a750e45ce86",

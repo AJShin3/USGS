@@ -33,7 +33,7 @@ ProgramManagerHome As screen:
         Size: =15
         Text: ="Edit Task Reports"
         Width: =370
-        X: =39
-        Y: =351
+        X: =474
+        Y: =246
         ZIndex: =3
 

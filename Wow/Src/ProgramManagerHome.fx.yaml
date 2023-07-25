@@ -1,0 +1,39 @@
+ProgramManagerHome As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    ProgramManagerHeading_1 As ProgramManagerHeading:
+
+    GeneratePDF As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =200
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =15
+        Text: |-
+            ="Force Generate PDF Reports
+            "
+        Width: =393
+        X: =910
+        Y: =348
+        ZIndex: =2
+
+    Button5 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =200
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =15
+        Text: ="Edit Task Reports"
+        Width: =370
+        X: =39
+        Y: =351
+        ZIndex: =3
+

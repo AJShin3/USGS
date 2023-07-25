@@ -1,0 +1,50 @@
+Welcome As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    Label2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Lighter
+        Height: =238
+        Size: =30
+        Text: ="Welcome to USGS Weekly Report"
+        Width: =464
+        X: =451
+        Y: =72
+        ZIndex: =3
+
+    ProgramManagerLogin As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: |
+            =Navigate(ProgramManagerHome)
+        Size: =15
+        Text: ="I am a Manager"
+        X: =603
+        Y: =440
+        ZIndex: =4
+
+    TaskLeadLogin As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =32
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(TaskLeadHome)
+        Size: =15
+        Text: ="I am a Task Lead"
+        Width: =190
+        X: =588
+        Y: =510
+        ZIndex: =5
+

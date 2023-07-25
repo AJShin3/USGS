@@ -17,8 +17,8 @@ ProgramManagerHome As screen:
             ="Force Generate PDF Reports
             "
         Width: =393
-        X: =910
-        Y: =348
+        X: =850
+        Y: =284
         ZIndex: =2
 
     Button5 As button:
@@ -33,7 +33,7 @@ ProgramManagerHome As screen:
         Size: =15
         Text: ="Edit Task Reports"
         Width: =370
-        X: =190
-        Y: =348
+        X: =118
+        Y: =284
         ZIndex: =3
 

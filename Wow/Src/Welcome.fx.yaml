@@ -27,8 +27,8 @@ Welcome As screen:
             =Navigate(ProgramManagerHome)
         Size: =15
         Text: ="I am a Manager"
-        X: =603
-        Y: =440
+        X: =936
+        Y: =336
         ZIndex: =4
 
     TaskLeadLogin As button:

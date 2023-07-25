@@ -9,7 +9,7 @@ Welcome As screen:
         FontWeight: =FontWeight.Lighter
         Height: =238
         Size: =30
-        Text: ="Welcome to USGS Weekly Report"
+        Text: ="You are Welcome to USGS Weekly Report"
         Width: =464
         X: =451
         Y: =72

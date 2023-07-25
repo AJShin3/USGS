@@ -510,54 +510,6 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
             }
           ]
         }
@@ -1131,66 +1083,6 @@
                 "member": "TabIndex",
                 "module": "TaskLeadHeading",
                 "type": "TaskLeadHeading.Icon1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TeamMemberHeading.Icon1_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TeamMemberHeading.Icon1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "TeamMemberHeading",
-                "type": "TeamMemberHeading.Icon1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TeamMemberHeading.Icon1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TeamMemberHeading.Icon1_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "TeamMemberHeading",
-                "type": "TeamMemberHeading.Icon1_4"
               }
             }
           ],

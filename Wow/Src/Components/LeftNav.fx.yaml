@@ -1,0 +1,112 @@
+LeftNav As CanvasComponent:
+    Fill: =RGBA(244,244,244,1)
+    Height: =Max(App.Height, App.DesignHeight) -72
+    MenuWidth: =If(varOpenMenu,70 ,Max(App.Width, App.DesignWidth)/6.5+40)
+    NavItems: |-
+        =Table(
+            {
+                Title: "Home",
+                Screen: App.ActiveScreen,
+                Icon: Icon.Home
+            }, {
+                Title: "Task",
+                Screen: App.ActiveScreen,
+                Icon: Icon.DetailList
+            }
+        )
+    Width: =LeftNav.MenuWidth
+    X: =0
+    Y: =0
+    ZIndex: =5
+
+    IcoHamburger_2 As icon.Add:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        DisabledFill: =IcoHamburger_2.Fill
+        FocusedBorderColor: =IcoHamburger_2.BorderColor
+        Height: =70
+        HoverBorderColor: =ColorFade(IcoHamburger_2.BorderColor, 20%)
+        HoverColor: =ColorFade(IcoHamburger_2.Color, 20%)
+        HoverFill: =IcoHamburger_2.Fill
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(varOpenMenu,!varOpenMenu)
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        PressedBorderColor: =ColorFade(IcoHamburger_2.BorderColor, -20%)
+        PressedColor: =ColorFade(IcoHamburger_2.Color, -20%)
+        PressedFill: =IcoHamburger_2.Fill
+        Width: =70
+        ZIndex: =1
+
+    galNavigation_2 As gallery.galleryVertical:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Default: =LookUp(LeftNav.NavItems,Screen=App.ActiveScreen)
+        DisabledBorderColor: =galNavigation_2.BorderColor
+        DisabledFill: =galNavigation_2.Fill
+        Height: =Parent.Height-IcoHamburger_2.Height
+        HoverBorderColor: =galNavigation_2.BorderColor
+        HoverFill: =galNavigation_2.Fill
+        Items: =LeftNav.NavItems
+        Layout: =Layout.Vertical
+        LoadingSpinnerColor: =galNavigation_2.BorderColor
+        PressedBorderColor: =galNavigation_2.BorderColor
+        PressedFill: =galNavigation_2.Fill
+        TemplateSize: =80
+        Width: =Parent.Width
+        Y: =IcoHamburger_2.Y+IcoHamburger_2.Height
+        ZIndex: =2
+
+        rectSelected_2 As rectangle:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            DisabledFill: =rectSelected_2.Fill
+            Fill: =RGBA(100, 118, 132, 1)
+            FocusedBorderColor: =rectSelected_2.BorderColor
+            Height: =40
+            HoverFill: =rectSelected_2.Fill
+            OnSelect: =Select(icoNav_2)
+            PressedFill: =rectSelected_2.Fill
+            Visible: =ThisItem.IsSelected
+            Width: =11
+            Y: =20
+            ZIndex: =1
+
+        icoNav_2 As icon.Add:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(32, 54, 71, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            DisabledFill: =icoNav_2.Fill
+            FocusedBorderColor: =icoNav_2.BorderColor
+            Height: =Parent.TemplateHeight
+            HoverBorderColor: =ColorFade(icoNav_2.BorderColor, 20%)
+            HoverColor: =ColorFade(icoNav_2.Color, 20%)
+            HoverFill: =icoNav_2.Fill
+            Icon: =ThisItem.Icon
+            OnSelect: =Set(varOpenMenu,false); Navigate(ThisItem.Screen)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            PressedBorderColor: =ColorFade(icoNav_2.BorderColor, -20%)
+            PressedColor: =ColorFade(icoNav_2.Color, -20%)
+            PressedFill: =icoNav_2.Fill
+            Width: =50
+            X: =10
+            ZIndex: =2
+
+        label_title As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =Parent.TemplateHeight
+            OnSelect: =Select(icoNav_2)
+            Size: =13
+            Text: =ThisItem.Title
+            Width: =Parent.Width
+            X: =65
+            ZIndex: =3
+

@@ -1,0 +1,42 @@
+{
+  "19ba4431-fc6b-4aa1-b4d0-0a925133bb97": {
+    "connectionRef": {
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1644/1.0.1644.3342/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "19ba4431-fc6b-4aa1-b4d0-0a925133bb97"
+  },
+  "e2e77d54-4f8b-43cf-b041-50ad8dfe5a75": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://nitsg.sharepoint.com/sites/NISInnovationLab-SoftwareFactory": {
+        "dataSources": {
+          "TaskList": {
+            "tableName": "d99be183-50ab-4e10-a2ae-379f3edf206a"
+          },
+          "UserTaskAssignments": {
+            "tableName": "78adec59-cc6c-4bf0-a400-71c303f17509"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "UserTaskAssignments",
+      "TaskList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e2e77d54-4f8b-43cf-b041-50ad8dfe5a75"
+  }
+}

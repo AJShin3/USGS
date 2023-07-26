@@ -6,13 +6,17 @@ TeamMemberHome As screen:
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
         DelayItemLoading: =true
-        Items: =CustomGallerySample
+        Items: |-
+            =Filter (
+                'UserTaskAssignments',
+                "Andrew Shin" in "Members"
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =104
-        X: =363
-        Y: =114
+        X: =116
+        Y: =96
         ZIndex: =2
 
         Image1 As image:
@@ -40,7 +44,7 @@ TeamMemberHome As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 173
             X: =103
@@ -58,7 +62,7 @@ TeamMemberHome As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =12
-            Text: =ThisItem.SampleText
+            Text: =ThisItem.TaskLead.DisplayName
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =Title1.X

@@ -67,7 +67,7 @@
         "Name": "Icon1_3",
         "Parent": "TaskLeadHeading",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 42,
+        "PublishOrderIndex": 50,
         "Rules": [
           {
             "Category": "Design",
@@ -322,7 +322,7 @@
         "Name": "Label1_3",
         "Parent": "TaskLeadHeading",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 43,
+        "PublishOrderIndex": 51,
         "Rules": [
           {
             "Category": "Data",

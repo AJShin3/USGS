@@ -8,6 +8,9 @@
     "datasets": {
       "https://nitsg.sharepoint.com/sites/NISInnovationLab-SoftwareFactory": {
         "dataSources": {
+          "TaskList": {
+            "tableName": "d99be183-50ab-4e10-a2ae-379f3edf206a"
+          },
           "UserTaskAssignments": {
             "tableName": "78adec59-cc6c-4bf0-a400-71c303f17509"
           }
@@ -15,7 +18,8 @@
       }
     },
     "dataSources": [
-      "UserTaskAssignments"
+      "UserTaskAssignments",
+      "TaskList"
     ],
     "dependencies": {},
     "dependents": [],

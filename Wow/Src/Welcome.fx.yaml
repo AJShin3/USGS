@@ -26,25 +26,43 @@ Welcome As screen:
         OnSelect: |
             =Navigate(TeamMemberHome)
         Size: =15
-        Text: ="Team Member"
-        X: =603
-        Y: =440
+        Text: ="Team Member Home"
+        Width: =226
+        X: =570
+        Y: =530
         ZIndex: =4
 
-    "'Lead/ManagerLogin' As button":
+    TaskLogin As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(100, 118, 132, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =38
+        Height: =32
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         OnSelect: =Navigate(TaskLeadHome)
         Size: =15
-        Text: ="Task Lead/Manager"
-        Width: =232
-        X: =567
-        Y: =356
+        Text: ="Task Lead Home"
+        Width: =192
+        X: =587
+        Y: =474
         ZIndex: =5
+
+    ProgramManagerLogin As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(ProgramManagerHome)
+        Size: =15
+        Text: ="Program Manager Home"
+        Width: =262
+        X: =552
+        Y: =416
+        ZIndex: =6
 

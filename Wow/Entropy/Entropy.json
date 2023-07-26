@@ -1,15 +1,15 @@
 {
   "ComponentIndexes": {
-    "Footer": 5,
-    "Header": 6,
-    "LeftNav": 7,
-    "New_Header": 8,
-    "New_Header_1": 9,
-    "ProgramManagerHeading": 10,
-    "Sub Header": 11,
-    "TaskLeadHeading": 12,
-    "TeamMemberHeading": 13,
-    "Welcome_1": 14
+    "Footer": 6,
+    "Header": 7,
+    "LeftNav": 8,
+    "New_Header": 9,
+    "New_Header_1": 10,
+    "ProgramManagerHeading": 11,
+    "Sub Header": 12,
+    "TaskLeadHeading": 13,
+    "TeamMemberHeading": 14,
+    "Welcome_1": 15
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -68,6 +68,7 @@
     "Rectangle2": 42,
     "rectSelected_2": 37,
     "SAMPLE_BUTTON": 57,
+    "Screen1": 74,
     "Separator1": 69,
     "Separator2": 47,
     "Styling": 51,
@@ -88,7 +89,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/26/2023 14:25:59",
+  "HeaderLastSavedDateTimeUTC": "07/26/2023 14:26:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "e2e77d54-4f8b-43cf-b041-50ad8dfe5a75": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a4f4023c109549479d39f7ed64fdc049\""
@@ -210,6 +211,7 @@
     "Rectangle2": {},
     "rectSelected_2": {},
     "SAMPLE_BUTTON": {},
+    "Screen1": {},
     "Separator1": {},
     "Separator2": {},
     "Styling": {},
@@ -286,6 +288,7 @@
     "Rectangle2": 6,
     "rectSelected_2": 41,
     "SAMPLE_BUTTON": 30,
+    "Screen1": 0,
     "Separator1": 24,
     "Separator2": 11,
     "Styling": 42,

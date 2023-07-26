@@ -67,7 +67,7 @@
         "Name": "Icon1_2",
         "Parent": "ProgramManagerHeading",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 48,
+        "PublishOrderIndex": 50,
         "Rules": [
           {
             "Category": "Design",
@@ -322,7 +322,7 @@
         "Name": "Label1_2",
         "Parent": "ProgramManagerHeading",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 49,
+        "PublishOrderIndex": 51,
         "Rules": [
           {
             "Category": "Data",

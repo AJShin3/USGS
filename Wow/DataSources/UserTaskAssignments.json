@@ -37,6 +37,7 @@
       "ProgramManager#Claims": "ProgramManager Claims",
       "TaskLead": "TaskLead",
       "TaskLead#Claims": "TaskLead Claims",
+      "TaskLead@odata.type": "TaskLead (TaskLead@odata.type)",
       "Title": "Title",
       "User": "Members",
       "User#Claims": "Members Claims",

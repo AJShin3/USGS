@@ -67,7 +67,7 @@
         "Name": "Icon1_4",
         "Parent": "TeamMemberHeading",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 54,
+        "PublishOrderIndex": 52,
         "Rules": [
           {
             "Category": "Design",
@@ -322,7 +322,7 @@
         "Name": "Label1_4",
         "Parent": "TeamMemberHeading",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 55,
+        "PublishOrderIndex": 53,
         "Rules": [
           {
             "Category": "Data",

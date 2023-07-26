@@ -1,3 +1,13 @@
 WeeklyReportForm As screen:
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
+    Label4 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =15
+        Text: ="Text"
+        X: =201
+        Y: =186
+        ZIndex: =1
+

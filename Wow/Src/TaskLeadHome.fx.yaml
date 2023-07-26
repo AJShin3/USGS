@@ -6,7 +6,7 @@ TaskLeadHome As screen:
     "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
         DelayItemLoading: =true
-        Items: =Filter(UserTaskAssignments , LookUp(Members , DisplayName = varUser).DisplayName = varUser)
+        Items: =Filter(UserTaskAssignments , LookUp(Members , DisplayName = "Ashish Regmi").DisplayName = "Ashish Regmi")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0

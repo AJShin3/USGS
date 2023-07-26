@@ -1,1 +1,24 @@
-{}
+{
+  "e2e77d54-4f8b-43cf-b041-50ad8dfe5a75": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://nitsg.sharepoint.com/sites/NISInnovationLab-SoftwareFactory": {
+        "dataSources": {
+          "UserTaskAssignments": {
+            "tableName": "78adec59-cc6c-4bf0-a400-71c303f17509"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "UserTaskAssignments"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e2e77d54-4f8b-43cf-b041-50ad8dfe5a75"
+  }
+}
